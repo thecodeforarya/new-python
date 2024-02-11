@@ -28,6 +28,7 @@ def print_connected_hexagons(rows, col):
          print("\\___/   " * col)
 
 
+
 inputs = input("inputs: ").split()
 rows, col = map(int, inputs)
 print_connected_hexagons(rows, col)
